@@ -1,0 +1,142 @@
+body {
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+.nav-menu-main ul {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+
+}
+
+.card-style {
+
+}
+
+.card-style h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.card-style p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.blue-card {
+  background-color: #81b3d2;
+}
+
+.blue-card h3 {
+  color: #ffffff;
+}
+
+.search-text{
+
+}
+
+.search-text b {
+  font-size: 30px;
+}
+
+.search-text span {
+  font-size: 14px;
+  color: #333333;
+}
+
+.main-footer b {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.main-footer span {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/*--------------------стили catalog.html--------------------*/
+
+.filters {
+  background-color: #7498bb;
+  color: #ffffff;
+
+}
+
+.filter legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.filter-option {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.filter-button {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.cost-per-day p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.cost-per-day table {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cost-per-day button {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.sorting-block b {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.sorting-block span {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-block button {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.description-block h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.description-block span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.description-block a {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.rating-block p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
