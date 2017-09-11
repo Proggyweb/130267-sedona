@@ -32,7 +32,7 @@ button {
 }
 
 .blue-card {
-  background-color: #81b3d2;
+  background: #81b3d2;
 }
 
 .blue-card h3 {
@@ -52,6 +52,14 @@ button {
   color: #333333;
 }
 
+.search-hotel-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #766357;
+}
+
 .main-footer b {
   font-size: 21px;
   line-height: 26px;
@@ -66,7 +74,7 @@ button {
 /*--------------------стили catalog.html--------------------*/
 
 .filters {
-  background-color: #7498bb;
+  background: #7498bb;
   color: #ffffff;
 
 }
@@ -139,4 +147,20 @@ button {
   font-size: 14px;
   line-height: 21px;
   color: #666666;
+}
+
+/*--------------------стили поисковой формы--------------------*/
+
+.search-forms {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.search-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #81b3d2;
 }
