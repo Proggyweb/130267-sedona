@@ -112,7 +112,28 @@
             <button type="button" class="search-hotel-button button">поиск гостиницы в седоне</button>
           </p>
         </div>
-
+        <section class="search-form">     <!--поисковая форма-->
+          <h2 class="visually-hidden">укажите даты прибытия и убытия</h2>
+          <form class="search-forms" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+              <label for="date-form-arrival">дата въезда</label>
+              <input type="text" class="field-date-form" id="date-form-arrival" name="date-arrival"  placeholder="24 апреля 2017">
+            </p>
+            <p>
+              <label for="date-form-departure">дата выезда</label>
+              <input type="text" class="field-date-form" id="date-form-departure" name="date-departure"  placeholder="4 июля 2017">
+            </p>
+            <p>
+              <label for="number-of-adults">взрослые</label>
+              <input type="number" class="field-number-form" id="number-of-adults" name="number-of-adults"  placeholder="2">
+              <label for="number-of-children">дети</label>
+              <input type="number" class="field-number-form" id="number-of-children" name="number-of-children"  placeholder="0">
+            </p>
+            <p>
+              <button type="submit" class="search-button button">найти</button>
+            </p>
+          </form>
+        </section>
         <img src="img/map.jpg" alt="карта" width="1200px" height="593px">
       </section>
     </main>
@@ -130,28 +151,3 @@
     </footer>
   </body>
 </html>
-
-<!--поисковая форма-->
-
-<section class="search-form">
-  <h2 class="visually-hidden">укажите даты прибытия и убытия</h2>
-  <form class="search-forms" action="https://echo.htmlacademy.ru" method="post">
-    <p>
-      <label for="date-form-arrival">дата въезда</label>
-      <input type="text" class="field-date-form" id="date-form-arrival" name="date-arrival"  placeholder="24 апреля 2017">
-    </p>
-    <p>
-      <label for="date-form-departure">дата выезда</label>
-      <input type="text" class="field-date-form" id="date-form-departure" name="date-departure"  placeholder="4 июля 2017">
-    </p>
-    <p>
-      <label for="number-of-adults">взрослые</label>
-      <input type="number" class="field-number-form" id="number-of-adults" name="number-of-adults"  placeholder="2">
-      <label for="number-of-children">дети</label>
-      <input type="number" class="field-number-form" id="number-of-children" name="number-of-children"  placeholder="0">
-    </p>
-    <p>
-      <button type="submit" class="search-button button">найти</button>
-    </p>
-  </form>
-</section>
