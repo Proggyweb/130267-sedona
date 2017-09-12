@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -76,21 +78,21 @@
         <div class="block-advantages">
         <ul>
           <li>
-            <div class="advantages-card card-style">
+            <div class="advantages-card card-style grey-card">
               <h3>небольшая площадь</h3>
               <p>- №3 -</p>
               <p>все достопримечальности находятся очень близко</p>
             </div>
           </li>
           <li>
-            <div class="advantages-card card-style">
+            <div class="advantages-card card-style grey-card">
               <h3>красивая дорога</h3>
               <p>- №4 -</p>
               <p>ехать в седону из лас-вегаса совсем не скучно</p>
             </div>
           </li>
           <li>
-            <div class="advantages-card card-style">
+            <div class="advantages-card card-style grey-card">
               <h3>мало туристов</h3>
               <p>- №5 -</p>
               <p>большинство едет в град каньон и толпится там</p>
@@ -124,10 +126,18 @@
               <input type="text" class="field-date-form" id="date-form-departure" name="date-departure"  placeholder="4 июля 2017">
             </p>
             <p>
-              <label for="number-of-adults">взрослые</label>
-              <input type="number" class="field-number-form" id="number-of-adults" name="number-of-adults"  placeholder="2">
-              <label for="number-of-children">дети</label>
-              <input type="number" class="field-number-form" id="number-of-children" name="number-of-children"  placeholder="0">
+              <div class="counter">
+                <label for="number-of-adults">взрослые</label>
+                <button type="button" class="button-counter-minus">-</button>
+                <input type="text" class="field-number-form" id="number-of-adults" name="number-of-adults"  placeholder="2">
+                <button type="button" class="button-counter-plus">+</button>
+              </div>
+              <div class="counter">
+                <label for="number-of-children">дети</label>
+                <button type="button" class="button-counter-minus">-</button>
+                <input type="text" class="field-number-form" id="number-of-children" name="number-of-children"  placeholder="0">
+                <button type="button" class="button-counter-plus">+</button>
+              </div>
             </p>
             <p>
               <button type="submit" class="search-button button">найти</button>
@@ -140,9 +150,9 @@
     <footer class="main-footer">
       <b>#visitsedona</b>
       <ul class="footer-logo">
-        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип twitter" width="20px" height="20px"></a></li>
-        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип facebook" width="20px" height="20px"></a></li>
-        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип youtube" width="20px" height="20px"></a></li>
+        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип twitter" width="20px" height="20px">twitter</a></li>
+        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип facebook" width="20px" height="20px">facebook</a></li>
+        <li><a href="#"><img src="http://placehold.it/20x20" alt="логотип youtube" width="20px" height="20px">youtube</a></li>
       </ul>
       <span>website by</span>
       <a href="https://htmlacademy.ru/">

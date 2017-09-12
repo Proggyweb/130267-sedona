@@ -1,22 +1,59 @@
-body {
-  font-family: "PT Sans";
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
   text-transform: uppercase;
 }
 
-button {
-  font-family: "PT Sans";
-  text-transform: uppercase;
+a {
+  text-decoration: none;
 }
 
-.nav-menu-main ul {
+.button {
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.nav-menu-main {
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+}
 
+.nav-menu-main ul {
+  list-style: none;
+}
+
+.nav-menu-main a {
+  color: #000000;
+  text-align: center;
+}
+
+.nav-menu-main a:hover {
+  color: #81b3d2;
+}
+
+.nav-menu-main a:active {
+  color: #cacaca;
+}
+
+.heading-text {
+  background-image: url("img/background_photo_main.png");
 }
 
 .card-style {
-
+  text-align: center;
 }
 
 .card-style h3 {
@@ -32,15 +69,19 @@ button {
 }
 
 .blue-card {
-  background: #81b3d2;
+  background-color: #81b3d2;
 }
 
 .blue-card h3 {
   color: #ffffff;
 }
 
-.search-text{
+.block-advantages-another ul {
+  list-style: none;
+}
 
+.grey-card {
+  background-color: #eeeeee;
 }
 
 .search-text b {
@@ -57,7 +98,18 @@ button {
   line-height: 26px;
   font-weight: bold;
   color: #ffffff;
-  background: #766357;
+  background-color: #766357;
+}
+
+.search-hotel-button:hover,
+.result-reservation-button:hover {
+  background-color: #604e43;
+}
+
+.search-hotel-button:active,
+.result-reservation-button:active {
+  color: #928a85;
+  background-color: #503e33;
 }
 
 .main-footer b {
@@ -71,12 +123,24 @@ button {
   line-height: 26px;
 }
 
+.footer-logo a{
+  text-decoration: none;
+}
+
+.footer-logo a:hover {
+  background-color: #669ec0;
+}
+
+.footer-logo a:active {
+  background-color: #5496bd;
+}
+
 /*--------------------стили catalog.html--------------------*/
 
 .filters {
-  background: #7498bb;
+  background-image: url("img/filter_background.jpg");
+  background-position: top center;
   color: #ffffff;
-
 }
 
 .filter legend {
@@ -90,10 +154,24 @@ button {
   line-height: 21px;
 }
 
-.filter-button {
+.filter-input-checkbox:disabled {
+  color: #6a6a6a;
+}
+
+.value-hotel {
+  background-image: transparent;
+}
+
+.cost-per-day button {
   font-size: 14px;
   line-height: 21px;
-  color: #ffffff;
+  border: 2px white solid;
+  background-image: transparent;
+}
+
+.cost-per-day button:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .cost-per-day p {
@@ -107,9 +185,8 @@ button {
   line-height: 21px;
 }
 
-.cost-per-day button {
-  font-size: 14px;
-  line-height: 21px;
+.sorting-list a {
+  color: #cacaca;
 }
 
 .sorting-block b {
@@ -122,14 +199,46 @@ button {
   line-height: 18px;
 }
 
-.sorting-block button {
+.sorting-list .button {
   font-size: 12px;
   line-height: 18px;
+}
+
+.sorting-list a {
+  font-weight: normal;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+a.sorting-current {
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.sorting-list .btn-list:hover {
+  color: #81b3d2;
+}
+
+.sorting-list .btn-list:active {
+  color: #000000;
+  text-decoration: none;
 }
 
 .description-block h3 {
   font-size: 21px;
   line-height: 26px;
+}
+
+.description-block h3:hover {
+  color: #81b3d2;
+}
+
+.description-block h3:active {
+  color: #cacaca;
 }
 
 .description-block span {
@@ -141,6 +250,23 @@ button {
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
+}
+
+.result-readmore-button {
+  background-color: #81b3d2;
+}
+
+.result-readmore-button:hover {
+  background-color: #669ec0;
+}
+
+.result-readmore-button:active {
+  color: #94b9d2;
+  background-color: #5496bd;
+}
+
+.result-reservation-button {
+  background-color: #766357;
 }
 
 .rating-block p {
@@ -162,5 +288,39 @@ button {
   line-height: 26px;
   font-weight: bold;
   color: #ffffff;
-  background: #81b3d2;
+  background-color: #81b3d2;
+}
+
+.search-button:hover {
+  background-color: #669ec0;
+}
+
+.search-button:active {
+  color: #94b9d2;
+  background-color: #5496bd;
+}
+
+.field-date-form,
+.field-number-form {
+  background-color: #f2f2f2;
+}
+
+.field-date-form:hover,
+.field-number-form:hover {
+  background-color: #ebebeb;
+}
+
+.field-date-form:focus,
+.field-number-form:focus {
+  background-color: #ffffff;
+}
+
+.button-counter-minus {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-counter-plus {
+  font-size: 20px;
+  font-weight: bold;
 }
