@@ -315,12 +315,19 @@ a.sorting-current {
   background-color: #ffffff;
 }
 
-.button-counter-minus {
-  font-size: 20px;
-  font-weight: bold;
-}
-
+.button-counter-minus,
 .button-counter-plus {
   font-size: 20px;
   font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.button-counter-minus:hover,
+.button-counter-plus:hover {
+  color: #000000;
+}
+
+.button-counter-minus:active,
+.button-counter-plus:active {
+  color: #81b3d2;
 }
